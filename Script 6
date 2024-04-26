@@ -1,0 +1,9 @@
+select 
+	distinct t2.manufacturer 
+	,round(t2.Price_per_100mg_Euro,2)  
+	,t2.AAS 
+	,t1.Website 
+from table_2 t2
+left join table_1 t1 on t1.Website = t2.Website 
+order by 2 desc
+limit 5
