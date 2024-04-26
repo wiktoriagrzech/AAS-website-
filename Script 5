@@ -1,0 +1,8 @@
+select
+	distinct t1.website_location_country 
+	,t1.Website
+	,t2.Price_per_100mg_Euro 
+	,t2.AAS 
+from table_1 t1 
+inner join table_2 t2 on t1.Website = t2.Website  
+order by 3 desc
