@@ -1,0 +1,9 @@
+/*najdroższe 5 środków za 100mg, ich cena i strona */
+
+select 
+	distinct website
+	,round(Price_per_100mg_Euro,2)  
+	,AAS 
+from table_2 t2
+order by 2 desc
+limit 5
