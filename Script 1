@@ -1,0 +1,43 @@
+create table table_1(
+	website_name varchar(100) primary key 
+	,website_location_country varchar(200) not null
+	,website_location_state varchar(200)
+	,website_laguage varchar(10000) 
+	)
+
+insert into table_1 
+	(website_name, website_location_country, website_location_state, website_laguage)
+values
+	('American Lifestyle', 'USA', 'Colorado', 'Italian')
+	,('Anabolic Steroid Central', 'Malaysia', null, 'English, German, French')
+	,('Anabolic Steroid Store', 'USA', 'Ohio', 'English')
+	,('Anabolic Steroids', 'USA', 'Oregon', 'English')
+	,('AnabolicWeb', 'Republic of Panama', null, 'English')
+	,('AnaboliczStore', 'Hong Kong', null, 'English')
+	,('AnaboliczWorld', 'Turkey', null, 'English')
+	,('Bulking-Cutting', 'USA', 'Colorado', 'English')
+	,('Buy-Anabolic-Steroids', 'USA', 'Illinois', 'English')
+	,('Buysteroids', 'USA', 'New Yersey', 'English')
+	,('Eurobolic', 'Republic of Lithuania', null, 'English, German, Spanish, Italian, French')
+	,('FitnessMed', 'Republic of Moldova', null, 'English')
+	,('GP Roids', 'USA', 'Illinois', 'English')
+	,('IBuy Steroids', 'Canada', 'British Columbia', 'English')
+	,('Juice BX', 'USA', 'Arizona', 'English')
+	,('Legal Steroids', 'USA', 'Virgina', 'English')
+	,('Med4Sale', 'England', null, 'English')
+	,('MedOutlet', 'Republic of Moldova', null, 'English')
+	,('Megabolix', 'USA', 'Texas', 'English')
+	,('NewSteroid', 'Russian Federation', null, 'English')
+	,('Online Legal Steroids', 'USA', 'Arizona', 'English')
+	,('Pharmaeurope', 'Republic of Panama', null, 'English')
+	,('PharmaSport', 'Republic of Moldova', null, 'English')
+	,('Roid 4U', 'Czech Republic', null, 'English, Italian, French, German, Finnish, Dutch')
+	,('Roid-Shop', 'Canada', 'British Columbia', 'English')
+	,('Steroid 1', 'USA', 'Illinois', 'English, French')
+	,('Steroids Shop', 'USA', 'Bahamas', 'English, Italian, Spanish, French, German, Portugese')
+	,('Steroids4u', 'Czech Republic', null, 'English')
+	,('The Roid Store', 'USA', 'New Jersey', 'English')
+	,('Vitanatural.eu', 'Germany', null, 'English, German, Spanish, French, Italian, Swedish, Portugese, Dutch, Polish, Finnish, Danish, Norwegian')
+	
+
+select * from table_1
